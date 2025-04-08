@@ -70,14 +70,14 @@
 
 
 // Break down the For Loop 
-let sampleArr = [1, 2, 3, 4, 5];
+// let sampleArr = [1, 2, 3, 4, 5];
 
-for (let i = 0; i < sampleArr.length; i++) {
-    console.log(`Initialized value is ${sampleArr[i]}`);
-    if (i == sampleArr.length-1) {
-        console.log('Condition is not met!');
-    } else {
-        console.log('Condition is met!');
-        console.log(`After iterator, initialized value is ${sampleArr[i+1]}`);
-    }
-}
+// for (let i = 0; i < sampleArr.length; i++) {
+//     console.log(`Initialized value is ${sampleArr[i]}`);
+//     if (i == sampleArr.length-1) {
+//         console.log('Condition is not met!');
+//     } else {
+//         console.log('Condition is met!');
+//         console.log(`After iterator, initialized value is ${sampleArr[i+1]}`);
+//     }
+// }
