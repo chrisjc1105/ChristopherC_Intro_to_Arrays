@@ -1,3 +1,5 @@
+// Notes -- 4.7.25 
+
 // let arr = new Array();
 // // declaring an empty array 
 // let arr2 = ["hello world", 200, true];
@@ -33,21 +35,49 @@
 // console.log(fruits[fruits.length]); // will be undefined 
 
 
+
 // Sarah's Grocery Store Inventory
-let groceryList = [];
+// let groceryList = [];
 
-groceryList = ["Eggs", "Apples", "Milk", "Orange Juice", "Bread"];
+// groceryList = ["Eggs", "Apples", "Milk", "Orange Juice", "Bread"];
 
-console.log(groceryList.length);
+// console.log(groceryList.length);
 
-groceryList[1] = null; 
-groceryList[3] = null; 
+// groceryList[1] = null; 
+// groceryList[3] = null; 
 
-groceryList.length = 7; 
+// groceryList.length = 7; 
 
-groceryList[5] = "Carrots";
-groceryList[6] = "Yogurt";
+// groceryList[5] = "Carrots";
+// groceryList[6] = "Yogurt";
 
-console.log(groceryList);
-console.log(groceryList.length);
+// console.log(groceryList);
+// console.log(groceryList.length);
 
+
+
+// Sarah's Grocery Store Shopping Cart 
+// let shoppingCart = []; 
+
+// shoppingCart.push("Milk", "Bread", "Eggs"); 
+// console.log(shoppingCart);
+
+// let eggs = shoppingCart.pop();
+
+// console.log(shoppingCart);
+// console.log(eggs);
+
+
+
+// Break down the For Loop 
+let sampleArr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < sampleArr.length; i++) {
+    console.log(`Initialized value is ${sampleArr[i]}`);
+    if (sampleArr[i] % 2 === 0) {
+        console.log('Condition is met!');
+    } else {
+        console.log('Condition is not met');
+    }
+    console.log(`After iterator, initialized value is ${sampleArr[i+1]}`);
+}
