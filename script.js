@@ -74,10 +74,10 @@ let sampleArr = [1, 2, 3, 4, 5];
 
 for (let i = 0; i < sampleArr.length; i++) {
     console.log(`Initialized value is ${sampleArr[i]}`);
-    if (sampleArr[i] % 2 === 0) {
-        console.log('Condition is met!');
+    if (i == sampleArr.length-1) {
+        console.log('Condition is not met!');
     } else {
-        console.log('Condition is not met');
+        console.log('Condition is met!');
+        console.log(`After iterator, initialized value is ${sampleArr[i+1]}`);
     }
-    console.log(`After iterator, initialized value is ${sampleArr[i+1]}`);
 }
